@@ -1,0 +1,519 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+}
+
+.navbar {
+  background: #fafafa;
+  padding: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.quote-button {
+  width: 8.125rem;
+  height: 2.5rem;
+  background: #7963e0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0;
+  background: #fafafa;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.hero-text {
+  max-width: 500px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.hero-text span {
+  color: #7963e0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text h1 {
+  font-family: "Quicksand";
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+  font-size: 3.4rem;
+}
+
+.hero-text h2 {
+  font-family: "Quicksand";
+  margin-top: 0.9rem;
+  margin-bottom: 0;
+  color: #000;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+
+.hero-text p {
+  margin: 20px 0 30px 0;
+  font-size: 16px;
+  color: #777;
+  line-height: 28px;
+  letter-spacing: 0.02rem;
+}
+
+.hire-me-button {
+  width: 8.125rem;
+  height: 2.5rem;
+  background: #7963e0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.hero-image img {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10px;
+  vertical-align: middle;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  transition: all 0.3s ease-in-out;
+}
+
+/* About Section */
+.about-section {
+  background: #f9f9f9;
+  height: 39.5rem;
+  padding: 5rem 0;
+}
+
+.about-text span {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #777;
+  line-height: 28px;
+}
+
+.about-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.about-image {
+  height: 28rem;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 500px;
+  margin-left: 2rem;
+}
+
+
+.about-text h2 {
+  margin-bottom: 1.85rem;
+  font-size: 2.06rem;
+  font-weight: 700;
+  font-family: "Quicksand";
+  display: block;
+}
+
+.about-text h2 span {
+  font-size: 2.06rem;
+  color: #7963e0;
+  letter-spacing: 0.02rem;
+  font-weight: 700;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #777;
+  line-height: 1.75rem;
+  margin-bottom: 1.85rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-details {
+  padding: 30px;
+  border: 1px solid #dee2e6;
+  border-radius: 15px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-details p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.about-details strong {
+  font-weight: 700;
+}
+
+/* Achievements Section */
+/* Qualification Section */
+.qualification-section {
+  padding: 5rem 0;
+  background: #f9f9f9;
+}
+
+.container- {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+
+}
+
+.qualification-text {
+  color: #777;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7963e0;
+  margin-bottom: 3rem;
+}
+
+.section-title span {
+  color: #000;
+}
+
+.qualification-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.qualification-column {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.qualification-column h3 {
+  font-size: 1.5rem;
+  color: #7963e0;
+  margin-bottom: 1rem;
+}
+
+.qualification-item {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qualification-item h4 {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.qualification-item h5 {
+  font-size: 1.25rem;
+  color: #7963e0;
+  margin-bottom: 0.5rem;
+}
+
+.qualification-item p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* portfolio/projects */
+/* Projects Section */
+.projects-section {
+  padding: 5rem 0;
+  background: #f9f9f9;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7963e0;
+  margin-bottom: 3rem;
+}
+
+.section-title span {
+  color: #000;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.category-button {
+  background: #7963e0;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.category-button:hover,
+.category-button.active {
+  background: #5739b6;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 325px;
+  width:325px;
+  background-size: contain;
+}
+
+.project-item:hover {
+  transform: scale(1.05);
+  /* Slightly increase size on hover */
+}
+
+.project-item img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+  /* Match the border radius of the container */
+}
+
+.project-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 15px;
+  /* Match the border radius */
+}
+
+.project-item:hover .project-hover {
+  opacity: 1;
+}
+
+/* Contact us */
+/* Contact Us Section */
+.contact-section {
+  padding: 5rem 0;
+  background: #f9f9f9;
+ 
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7963e0;
+  margin-bottom: 1rem;
+}
+
+.section-title span {
+  color: #000;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 3rem;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  flex: 1;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  border: 1px solid #dbdada;
+  border-radius: 15px;
+  margin-right: 2rem;
+}
+
+.form-group {
+  height: 60px;
+  width: 500px;
+  display: block;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.name {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.subject {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.message-box {
+  padding-top: 12px;
+  padding-left: 12px;
+  outline: none;
+  width: 500px;
+  display: block;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.contact-button {
+  margin-top: 2rem;
+  width: 8.125rem;
+  height: 2.5rem;
+  background: #7963e0;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.contact-button:hover {
+  background: #5739b6;
+}
+/* Footer */
+footer{
+ height: 80px;
+ background-color: black;
+ color: white;
+ display: flex;
+ padding: 30px;
+ font-family: "Montserrat", sans-serif;
+ font-weight: 400;
+ font-size: 13px;
+ justify-content: space-between;
+}
